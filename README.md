@@ -19,6 +19,9 @@ The system is built using Python, leveraging MediaPipe for facial landmark detec
   - The application identifies the bounding box of each eye based on those landmarks.
   - A static eye image (PNG format) is resized and blended onto each detected eye using pixel-level alpha blending.
   - The augmented frame is displayed live, creating an illusion of virtual eyes that move and scale naturally with your face.
+# IMPORTANT NOTE!
+  Use python 3.10 or below as the program is built for that purpose.
+  
 
 
 
