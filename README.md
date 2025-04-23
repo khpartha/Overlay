@@ -20,6 +20,16 @@ The system is built using Python, leveraging MediaPipe for facial landmark detec
   pip install opencv-python mediapipe
  
 ```
+  - Script installation
+
+    ```bash
+python -m venv venv
+venv\Scripts\activate
+
+ 
+```
+
+
 
 # How It Works
   - The webcam captures video frames in real-time.
