@@ -22,7 +22,9 @@ The system is built using Python, leveraging MediaPipe for facial landmark detec
 ```
   - Script dependency
   ```bash
-  pip install opencv-python mediapipe
+  python -m venv venv
+venv\Scripts\activate
+
  
 ```
 
