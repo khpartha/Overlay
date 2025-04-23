@@ -13,6 +13,12 @@ The system is built using Python, leveraging MediaPipe for facial landmark detec
   - MediaPipe FaceMesh – For high-precision facial landmark detection (468 points)
   - PNG image input – Custom eye designs with optional transparency
 
+# How It Works
+  - The webcam captures video frames in real-time.
+  - MediaPipe detects a face and extracts the positions of key landmarks around the eyes.
+  - The application identifies the bounding box of each eye based on those landmarks.
+  - A static eye image (PNG format) is resized and blended onto each detected eye using pixel-level alpha blending.
+  - The augmented frame is displayed live, creating an illusion of virtual eyes that move and scale naturally with your face.
 
 
 
